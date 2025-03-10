@@ -24,9 +24,7 @@ def upload_and_process():
     if file_path:
         extract_text(file_path)
 
-
-# Create a simple UI
 root = tk.Tk()
-root.withdraw()  # Hide the root window
+root.withdraw() 
 
 upload_and_process()
